@@ -1,0 +1,63 @@
+# Node.js
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+coverage/
+out/
+lib/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.tmp
+*.bak
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Linter and Formatter
+.eslintcache
+.prettierrc
+.prettierignore
+.eslintrc.js
+.eslintignore
+
+# Test files (if not committed)
+test-results/*
+*.test.js
+*.spec.js
+
+# Other
+*.log
+*.sqlite
+*.sqlite3
+*.lock
+*.tmp
+*.bak
+*.old
+*.tmp
+*.DS_Store
+
+# OS-specific
+/.idea/
+/.vscode/
