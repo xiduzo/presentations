@@ -1,0 +1,19 @@
+{
+  "name": "mqtt",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export --dark"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.47.5",
+    "@slidev/theme-default": "latest",
+    "mqtt": "^5.4.0",
+    "vue": "^3.4.20"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.42.1"
+  }
+}
