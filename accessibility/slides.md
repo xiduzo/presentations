@@ -9,17 +9,21 @@ drawings:
 transition: slide-up
 mdc: true
 hideInToc: true
-layout: intro
+layout: iframe-right
+url: https://giphy.com/embed/Euep9OGNL0TutamVKS
 ---
 
 # Pizza party 🍕
-27th September 2024
+29th September 2025
 
-<iframe src="https://giphy.com/embed/Euep9OGNL0TutamVKS" width="432" height="360"></iframe>
+<Footnotes class="absolute bottom-4 space-x-2 left-8">
+  <Footnote><a href="https://www.imdb.com/title/tt1031470/" rel="noreferrer" target="_blank">source</a></Footnote>
+</Footnotes>
 
 ---
 hideInToc: true
-layout: two-cols
+layout: iframe-right
+url: https://giphy.com/embed/hyyV7pnbE0FqLNBAzs
 ---
 
 # Accessibility workshop
@@ -27,18 +31,9 @@ _#gotcha_
 
 <Toc minDepth="1" maxDepth="1"></Toc>
 
-::right::
-
-<iframe src="https://giphy.com/embed/hyyV7pnbE0FqLNBAzs" width="455" height="380"></iframe>
-
----
-layout: fact
-transition: slide-left
----
-
-# Clean up
-
-<div v-click class="text-4xl">✅</div>
+<Footnotes class="absolute bottom-4 space-x-2 left-8">
+  <Footnote><a href="https://www.imdb.com/title/tt1248744/" rel="noreferrer" target="_blank">source</a></Footnote>
+</Footnotes>
 
 ---
 layout: two-cols
@@ -73,25 +68,35 @@ hideInToc: true
 
 ---
 layout: image-right
-image: /images/mdd-webaim.png
+image: /images/mdd-webaim-2025.png
 hideInToc: true
 ---
 
 ### Accessible infrastructure
 # How about [digital infrastructure]{style="color:#4466ff"}
 
-[Source](https://wave.webaim.org/extension/)
+<Footnotes class="absolute bottom-4 space-x-2 left-8">
+  <Footnote>🐇</Footnote>
+  <Footnote><a href="https://wave.webaim.org/extension/" rel="noreferrer" target="_blank">webaim extension</a></Footnote>
+</Footnotes>
 
 ---
-layout: statement
+layout: image-right
 title: The 🍕 challenge
+image: /images/voice-over-tutorial.png
 ---
 
 ### The 🍕challenge
-# Split into [groups of 6]{style="color:#4466ff"} and learn the VoiceOver essentials
+# Split into [6 groups]{style="color:#4466ff"}
 
-1. make sure every team has someone with a Macbook
-2. find a relatively quiet space for your group and <em class="text-[#4466ff]">be back in 15 minutes</em>
+<div class="mt-20"></div>
+
+1. Make sure each team has someone with a Macbook
+2. Appoint one person to be the test subject*, the rest [observes and takes notes]{style="color:#4466ff"}
+
+<Footnotes class="absolute bottom-4 space-x-2 left-8 italic">
+  <Footnote>* This person should have completed the VoiceOver essentials</Footnote>
+</Footnotes>
 
 ---
 layout: statement
@@ -105,15 +110,15 @@ hideInToc: true
 <section class="flex items-center justify-between mt-20 space-x-38">
   <div class="text-center space-y-2">
     <a href="https://pizzabeppe.nl" target="_blank" class="text-2xl">pizzabeppe.nl</a>
-    <div class="text-xs italic">slick design</div>
+    <div class="text-xs italic">🧑‍🎨🧑‍💻 slick design</div>
   </div>
   <div class="text-center space-y-2">
     <a href="https://pizzadonna.nl" target="_blank" class="text-2xl">pizzadonna.nl</a>
-    <div class="text-xs italic">seems shady</div>
+    <div class="text-xs italic">👁️👄👁️ seems shady</div>
   </div>
   <div class="text-center space-y-2">
     <a href="https://dominos.nl/" target="_blank" class="text-2xl">dominos.nl</a>
-    <div class="text-xs italic">big company</div>
+    <div class="text-xs italic">💰💰 big company</div>
   </div>
 </section>
 
@@ -125,22 +130,42 @@ class: text-xl
 
 ### The 🍕 challenge
 # [The rules]{style="color:#4466ff"} of the 🍕 challenge
-## The first group who makes it to the payment page wins
+## The <u>first</u> group who makes it to the payment page wins
+
+<div class="mt-20"></div>
 
 ::left::
 
-## You are [only]{style="color:#4466ff"} allowed to use
-
-- A screen reader
-- A keyboard
+| Tools to use |
+|---------------|
+| ✅ A screen reader |
+| ✅ A keyboard |
+| ⛔ Your eyes |
 
 ::right::
 
-## In your cart, put [at least]{style="color:#4466ff"} the following
+| [At least]{style="color:#4466ff"} have this in your cart |
+|---------------------|
+| 🐃 Pizza margherita |
+| 🍍 Pizza Hawaii |
+| 🍄‍🟫 Any vegetarian pizza |
 
-- Pizza margherita
-- Pizza Hawaii
-- Any vegetarian pizza
+---
+layout: statement
+hideInToc: true
+class: text-5xl
+---
+
+# ⚠️
+[Observing]{style="color:#4466ff"} means looking and taking
+
+notes, not helping your test subject.
+
+<br/>
+
+Your [observers]{style="color:#4466ff"} may <u>only</u> help you with
+
+the keyboard shortcuts.
 
 ---
 layout: iframe
@@ -205,7 +230,7 @@ image: /images/lawsuits.png
 ### Now what
 # Accessibility lawsuits are [on the rise]{style="color:#4466ff"}
 
-[Source](https://www.adatitleiii.com/2023/02/ada-title-iii-federal-lawsuits-numbers-are-down-but-likely-to-rebound-in-2023/)
+[Source](https://www.adatitleiii.com/2025/03/ada-title-iii-federal-lawsuit-numbers-rebound-to-8800-in-2024/)
 
 ---
 hideInToc: true
@@ -237,7 +262,7 @@ layout: fact
 ### The European Accessibility Act
 # Passed in [2019]{style="color:#4466ff"}
 
-Businesses have until [June 28, 2025]{style="text-decoration:underline"} to implement the EAA’s measures
+EAA’s measures are enforced since [June 28, 2025]{style="text-decoration:underline"}
 
 ---
 hideInToc: true
@@ -264,7 +289,7 @@ layout: fact
 ### The European Accessibility Act
 # It [will not]{style="color:#4466ff"} be retroactive*
 
-[* Is not fully defined just yet]{style="opacity:0.5"}
+[* services already on the market have until June 28, 2030]{style="opacity:0.5"}
 
 ---
 layout: fact
@@ -274,6 +299,11 @@ transition: slide-left
 
 ### The European Accessibility Act
 # It will follow the [WCAG guidelines]{style="color:#4466ff"}
+
+<Footnotes class="absolute bottom-4 space-x-2 left-8">
+    <Footnote>🐇</Footnote>
+  <Footnote><a href="https://www.w3.org/WAI/standards-guidelines/wcag/" rel="noreferrer" target="_blank">WCAG guidelines</a></Footnote>
+</Footnotes>
 
 ---
 layout: section
@@ -288,8 +318,6 @@ hideInToc: true
 For each guideline, there are testable success criteria.
 
 The success criteria are at three levels: [A]{style="color:#4466ff"}, [AA]{style="color:#4466ff"}, and [AAA]{style="color:#4466ff"}.
-
-[Source](https://www.w3.org/WAI/standards-guidelines/wcag/)
 
 ---
 layout: section
@@ -563,7 +591,11 @@ layout: statement
 
 # [Accessible Rich Internet Applications]{style="font-size:50px"}
 ## (ARIA)
-[Source](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA)
+
+<Footnotes class="absolute bottom-4 space-x-2 left-8">
+    <Footnote>🐇</Footnote>
+  <Footnote><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA" rel="noreferrer" target="_blank">ARIA</a></Footnote>
+</Footnotes>
 
 ---
 hideInToc: true
@@ -572,14 +604,17 @@ image: /images/a11y-checklist.png
 backgroundSize: cover
 ---
 
+<Footnotes class="absolute bottom-4 space-x-2 right-8">
+    <Footnote>🐇</Footnote>
+  <Footnote><a href="https://www.a11yproject.com/" rel="noreferrer" target="_blank">The A11Y project</a></Footnote>
+</Footnotes>
+
 ---
 hideInToc: true
 layout: image
 image: /images/a11y.png
 backgroundSize: 120%
 ---
-
-[Source](https://www.a11yproject.com/)
 
 ---
 hideInToc: true
@@ -605,9 +640,13 @@ hideInToc: true
 ---
 
 ### Tim berners-lee
-# The power of the Web is in its universality.
+# “The power of the Web is in its universality.
 
-# Access by everyone [regardless of disability]{style="color:#4466ff"} is an _essential_ aspect.
+# Access by everyone [regardless of disability]{style="color:#4466ff"} is an _essential_ aspect.”
+
+<Footnotes class="absolute bottom-4 space-x-2 right-8">
+  <Footnote><a href="https://www.w3.org/WAI/fundamentals/accessibility-intro/" rel="noreferrer" target="_blank">Source</a></Footnote>
+</Footnotes>
 
 ---
 layout: quote
@@ -615,7 +654,7 @@ hideInToc: true
 ---
 
 _[motherfuckingwebsite.com](http://www.motherfuckingwebsite.com)_
-# \[…\] What I'm saying is that all the [problems]{style="color:#4466ff"} we have with websites are ones [we create ourselves]{style="color:#4466ff"}.
+# “\[…\] What I'm saying is that all the [problems]{style="color:#4466ff"} we have with websites are ones [we create ourselves]{style="color:#4466ff"}.
 <br/>
 
 # Websites aren't broken by default, they are functional, high-performing, and accessible.
@@ -627,7 +666,7 @@ You break them.
 <br/>
 
 <h1 v-click>
-You son-of-a-bitch.
+You son-of-a-bitch.”
 </h1>
 
 ---
@@ -703,7 +742,10 @@ image: /images/persona-spectrum.png
 class: flex justify-end
 ---
 
-[Source](https://inclusive.microsoft.design){style="color:black"}
+<Footnotes class="absolute bottom-4 space-x-2 right-8 text-black">
+    <Footnote>🐇</Footnote>
+  <Footnote><a href="https://inclusive.microsoft.design" rel="noreferrer" target="_blank">Microsoft inclusive design</a></Footnote>
+</Footnotes>
 
 ---
 hideInToc: true
@@ -722,7 +764,7 @@ layout: section
 
 ### The number of detected errors increased notably (13.6%) since the 2023
 # Practical tips
-## Across the one million home pages, [56,791,260 distinct accessibility errors]{style="color:#4466ff"} were detected -- an average of [56.8 errors per page]{style="color:#4466ff"}.
+## Across the one million home pages, [50,960,288 distinct accessibility errors]{style="color:#4466ff"} were detected -- an average of [51 errors per page]{style="color:#4466ff"}.
 
 [Source](https://webaim.org/projects/million/)
 
@@ -734,7 +776,8 @@ class: bg-blue-900 text-gray-700
 ---
 
 ### Fix your contrast
-# 81.0%
+# 79.1%
+### -1.9% from 2024
 
 ---
 hideInToc: true
@@ -742,7 +785,8 @@ layout: fact
 ---
 
 ### Fix your contrast
-# 81.0%
+# 79.1%
+### -1.9% from 2024
 
 ---
 hideInToc: true
@@ -756,11 +800,20 @@ class: flex items-end
 
 ---
 hideInToc: true
+layout: image
+image: /images/color-review-figma.png
+backgroundSize: contain
+class: flex items-end
+---
+
+---
+hideInToc: true
 layout: fact
 ---
 
 ### Serve alternatives
-# 54.5%
+# 55.5%
+### +1% from 2024
 
 ---
 hideInToc: true
@@ -769,7 +822,6 @@ image: /images/alt-text.jpg
 ---
 
 ### Serve alternatives
-# 54.5%
 
 _Without context_<br/>
 `<img alt="A mostly empty stadium”/>`
@@ -794,7 +846,11 @@ image: /images/youtube-subs.png
 ---
 
 ### Serve alternatives
-# 54.5%
+
+<Footnotes class="absolute bottom-4 space-x-2 right-8 text-black">
+    <Footnote>🐇</Footnote>
+  <Footnote><a href="https://www.youtube.com/watch?v=QWPWgaDqbZI" rel="noreferrer" target="_blank">The Internet's Accessibility Problem</a></Footnote>
+</Footnotes>
 
 ---
 hideInToc: true
@@ -802,16 +858,16 @@ layout: fact
 ---
 
 ### Label your inputs
-# 48.6%
+# 48.2%
+### -0.4% from 2024
 
 ---
 hideInToc: true
 ---
 
 ### Label your inputs
-# 48.6%
 
-<form class="flex flex-col space-y-2">
+<form class="flex flex-col space-y-6 scale-90">
   <input placeholder="Username" class="border border-grey-200 p-2 rounded-2">
 
   <label class="flex flex-col" v-click>
@@ -843,7 +899,8 @@ layout: fact
 ---
 
 ### Empty links / buttons
-# 44.6% / 28.2%
+# 45.4% / 29.6%
+### +0.8% / +1.4% from 2024
 
 ---
 layout: image
@@ -852,7 +909,6 @@ transition: slide-left
 ---
 
 ### Empty links / button{style="color:#fff;z-index:20;position:relative;opacity:1"}
-# 48.6%{style="color:#fff;z-index:20;position:relative;"}
 
 <div class="bg-black opacity-55 inset-0 absolute z-10"></div>
 
@@ -934,15 +990,6 @@ hideInToc: true
   <button class="bg-red-500 text-white px-4 py-2 outline outline-red-500 rounded-md hover:bg-red-600 hover:outline-red-600 transition-all duration-300">Cancel reservation</button>
  </section>
 </article>
-
----
-hideInToc: true
-layout: image
-image: /images/declaration-screen.jpeg
----
-
-### Sander's tips
-# Make interactive elements [descriptive]{style="color:#4466ff"}
 
 ---
 hideInToc: true
@@ -1061,6 +1108,16 @@ layout: fact
 
 ## _No matter how small_
 
+---
+hideInToc: true
+layout: statement
+---
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7365675607805878272" height="500" width="650" frameborder="0" allowfullscreen="" title="shared post of alumni of the MDD about accessibility"></iframe>
+
+<Footnotes class="absolute bottom-4 space-x-2 right-8">
+  <Footnote><a href="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7365675607805878272" rel="noreferrer" target="_blank">Source</a></Footnote>
+</Footnotes>
 
 ---
 hideInToc: true
@@ -1070,20 +1127,8 @@ transition: slide-left
 
 ### Takeaways
 # This [really matters]{style="color:#4466ff"} and it makes a huge difference for so many people
-<br/>
 
-## [♥️]{style="color:#ff0000"}
-
----
-hideInToc: true
----
-
-### Down the rabbit hole
-
-- [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/WCAG21/quickref/)
-- [A11Y Project](https://www.a11yproject.com/)
-- [MDN Web Docs Accessibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility)
-- [WebAIM](https://webaim.org/)
-- [Some posters](https://github.com/UKHomeOffice/posters/tree/master/accessibility)
-- [Microsoft Inclusive Design](https://inclusive.microsoft.design)
-- [TED talk -- The Internet's Accessibility Problem](https://www.youtube.com/watch?v=QWPWgaDqbZI)
+<Footnotes class="absolute bottom-4 space-x-2 right-8">
+    <Footnote>🐇</Footnote>
+  <Footnote><a href="https://github.com/UKHomeOffice/posters/tree/master/accessibility" rel="noreferrer" target="_blank">Share the ♥️</a></Footnote>
+</Footnotes>
