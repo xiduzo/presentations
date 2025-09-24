@@ -1,0 +1,21 @@
+{
+  "name": "accessibility",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export --dark"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.49.29",
+    "@slidev/theme-apple-basic": "^0.25.1",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "slidev-theme-geist": "^0.8.1",
+    "vue": "^3.4.38"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.47.2"
+  }
+}
