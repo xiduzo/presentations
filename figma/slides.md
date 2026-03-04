@@ -13,7 +13,13 @@ fonts:
 ---
 
 # Figma day 1
-### 14th of November 2024
+### 13th of November 2025
+
+---
+layout: image
+image: /images/scissors.jpeg
+backgroundSize: contain
+---
 
 ---
 layout: statement
@@ -25,10 +31,6 @@ transition: slide-left
 <div class="mt-12"></div>
 
 <h1 v-click>MDD <span class="font-mono">!=</span> Course UX design</h1>
-
-<div class="mt-12"></div>
-
-<h1 v-click>I am no expert</h1>
 
 <style>
 * {
@@ -72,7 +74,9 @@ class: text-black!
 
 <div class="mt-120"></div>
 
-[Annual UX survey](https://www.uxness.in/2024/06/2024-annual-ux-tools-survey-by-uxness.html){style="opacity:0.5;"}
+<Footnotes>
+    <Footnote><a href="https://www.uxness.in/2024/06/2024-annual-ux-tools-survey-by-uxness.html" rel="noreferrer" target="_blank">Source</a></Footnote>
+</Footnotes>
 
 ---
 layout: image-right
@@ -83,9 +87,11 @@ image: /images/adobe.png
 
 ### Compared to the Adobe Creative Cloud
 
-<div class="mt-86"></div>
-
 [* for students](https://www.figma.com/education){style="opacity:0.5;"}
+
+<Footnotes class="absolute bottom-8 italic opacity-50">
+    <Footnote>🐇 But so is <a href="https://penpot.app/" rel="noreferrer" target="_blank">penpot</a></Footnote>
+</Footnotes>
 
 ---
 layout: image-right
@@ -96,9 +102,11 @@ image: /images/sketch.png
 
 ### Compared to Sketch
 
-<div class="mt-86"></div>
-
 Works on MacOS, Windows, iOS, iPad, Android and in the Browser
+
+<Footnotes class="absolute bottom-8 italic opacity-50">
+    <Footnote>🐇 But so is <a href="https://penpot.app/" rel="noreferrer" target="_blank">penpot</a></Footnote>
+</Footnotes>
 
 ---
 layout: image-right
@@ -110,9 +118,9 @@ backgroundSize: contain
 
 ### Extend Figma how you need it
 
-<div class="mt-86"></div>
-
-[Microflow hardware bridge](https://www.figma.com/community/plugin/1373258770799080545){style="opacity:0.5;"}
+<Footnotes class="absolute bottom-8 italic opacity-50">
+    <Footnote>🐇 <a href="https://www.figma.com/community/plugin/1373258770799080545" rel="noreferrer" target="_blank">Microflow hardware bridge</a></Footnote>
+</Footnotes>
 
 ---
 layout: image-right
@@ -123,13 +131,12 @@ image: /images/ui3.png
 
 ### And the promise of AI tools
 
-<div class="mt-86"></div>
-
-[AI in Figma](https://help.figma.com/hc/en-us/articles/23570416033943){style="opacity:0.5;"}
+<Footnotes class="absolute bottom-8 italic opacity-50">
+    <Footnote><a href="https://help.figma.com/hc/en-us/articles/23570416033943" rel="noreferrer" target="_blank">AI in Figma</a></Footnote>
+</Footnotes>
 
 ---
 layout: fact
-transition: slide-left
 ---
 
 # Why I ❤️ Figma
@@ -137,12 +144,19 @@ transition: slide-left
 ### It makes (web)designers think like a developer <u>again</u>
 
 ---
+layout: image
+transition: slide-left
+image: /images/designers-developers-kiss.jpeg
+backgroundSize: 60%
+---
+
+---
 layout: fact
 ---
 
 # Components
 
-### Variants, auto layout, variables
+### Variants, auto layout, ~~variables~~
 
 ---
 layout: fact
@@ -150,51 +164,11 @@ layout: fact
 
 # What is a component?
 
----
-layout: image
-image: /images/step-001.png
-backgroundSize: contain
-transition: fade
----
+### And when did this concept arise?
 
 ---
 layout: image
-image: /images/step-002.png
-backgroundSize: contain
-transition: fade
----
-
----
-layout: image
-image: /images/step-003.png
-backgroundSize: contain
-transition: fade
----
-
----
-layout: image
-image: /images/step-004.png
-backgroundSize: contain
-transition: fade
----
-
----
-layout: image
-image: /images/step-005.png
-backgroundSize: contain
-transition: fade
----
-
----
-layout: image
-image: /images/step-006.png
-backgroundSize: contain
-transition: fade
----
-
----
-layout: image
-image: /images/step-007.png
+image: /images/components-timeline.png
 backgroundSize: contain
 ---
 
@@ -204,12 +178,21 @@ url: https://madebymike.github.io/html5-periodic-table
 ---
 
 ---
+layout: image
+image: /images/figma-html.png
+backgroundSize: contain
+---
+
+---
 layout: quote
 ---
 
 ### What is a component?
 # Components are the main building blocks for user interfaces.
-_[Design system checklist](https://www.designsystemchecklist.com/category/components)_{style="opacity:0.5;"}
+
+<Footnotes class="absolute bottom-8 italic opacity-50">
+    <Footnote>🐇 <a href="https://www.designsystemchecklist.com/category/components" rel="noreferrer" target="_blank">Design system checklist</a></Footnote>
+</Footnotes>
 
 ---
 layout: image-right
@@ -221,9 +204,9 @@ image: https://bradfrost.com/wp-content/uploads/2021/11/1_XxiyR4IgdUyfd4edKpqTyQ
 
 ### It is a small _sub-set_ of a design system
 
-<div class="mt-80"></div>
-
-[Design systems by Brad Frost](https://bradfrost.com/blog/post/design-systems-are-for-user-interfaces/){style="opacity:0.5;"}
+<Footnotes class="absolute bottom-8 italic opacity-50">
+    <Footnote>🐇 <a href="https://bradfrost.com/blog/post/design-systems-are-for-user-interfaces/" rel="noreferrer" target="_blank">Design systems by Brad Frost</a></Footnote>
+</Footnotes>
 
 ---
 layout: fact
@@ -236,12 +219,19 @@ layout: fact
 
 ## Cut out and organize the components of the _NS_ (Dutch Railways)
 
-<div class="absolute bottom-8 left-16 italic opacity-50">
+<div class="mt-12 italic">
+    Look at
   <a href="https://docs.huihoo.com/yui/2.5.0/" target="_blank">Yahoo UI</a>,
   <a href="https://getbootstrap.com/docs/5.3/examples/" target="_blank">Bootstrap</a>,
-  <a href="https://m3.material.io/components" target="_blank">Material UI</a>,
+  <a href="https://m3.material.io/components" target="_blank">Material UI</a> or
   <a href="https://atlassian.design/components" target="_blank">Atlassian</a>
 </div>
+
+---
+layout: image
+image: /images/discovery-example.webp
+backgroundSize: contain
+---
 
 ---
 layout: fact
@@ -268,7 +258,6 @@ transition: slide-left
 
 # Break
 
-
 ---
 layout: fact
 ---
@@ -278,6 +267,18 @@ layout: fact
 [Button stealer](https://anatolyzenkov.com/stolen-buttons/button-stealer){style="opacity:0.5;"}
 
 ---
+layout: image
+image: /images/no-layer-names.png
+backgroundSize: 100%
+---
+
+---
+layout: image
+image: /images/layer-names.png
+backgroundSize: 100%
+---
+
+---
 layout: fact
 ---
 
@@ -285,14 +286,16 @@ layout: fact
 
 # Make a component{style="margin: 0.2em 0 0.5em;"}
 
-## At least <u>4 variants</u>, each variant should have at least <u>3 states</u>
+## At least <u>3 variants</u>, each variant should have at least <u>2 states</u> and use <u>auto layout</u>
 
-### [Figma file](https://www.figma.com/design/qYTyqupQE0D6a2DB6trbNB/Figma-day-1?node-id=23-212&t=go5uQspdZjefCwy7-1)
+### [Figma file](https://www.figma.com/design/lWzYDfRjjvERZZyPa8tQP8/Figma)
 
-<div class="absolute bottom-8 left-16 italic opacity-50">
-  <a href="https://component.gallery" target="_blank">Component gallery</a>,
+<div class="mt-12 italic">
+    Look at
+  <a href="https://component.gallery/components/button/" target="_blank">Component gallery</a>,
   <a href="https://www.designsystemchecklist.com/category/components/" target="_blank">Design system checklist</a>,
-  <a href="https://originui.com" target="_blank">OriginUI</a>,
+  <a href="https://m3.material.io/components/all-buttons" target="_blank">Material design 3</a> or
+  <a href="https://ui.shadcn.com/docs/components/button" target="_blank">Shadcnui (<code>V0</code> uses this!)</a>
 </div>
 
 <!--
@@ -300,27 +303,16 @@ mddfigmaday1
 -->
 
 ---
-layout: fact
 transition: slide-left
 ---
 
-## [Figma fundamentals](https://www.youtube.com/watch?v=Cx2dkpBxst8&list=PLXDU_eVOJTx7QHLShNqIXL1Cgbxj7HlN4){style="opacity: 0.5;"}
-<br/>
-<br/>
+## 🐇 Down the rabbit hole
 
-## [Components](https://www.youtube.com/watch?v=k74IrUNaJVk&list=PLXDU_eVOJTx5LSjOmeBYMuvaa4UayfMe4)
-<br/>
-<br/>
-
-## [Auto layout](https://www.youtube.com/watch?v=PNJxeD29ZTg&list=PLXDU_eVOJTx55HFubfbTL3ellJjBM2QE2)
-
----
-
-## Down the rabbit hole
+- [Figma fundamentals](https://www.youtube.com/watch?v=Cx2dkpBxst8&list=PLXDU_eVOJTx7QHLShNqIXL1Cgbxj7HlN4), [Components](https://www.youtube.com/watch?v=k74IrUNaJVk&list=PLXDU_eVOJTx5LSjOmeBYMuvaa4UayfMe4) & [Auto layout](https://www.youtube.com/watch?v=PNJxeD29ZTg&list=PLXDU_eVOJTx55HFubfbTL3ellJjBM2QE2)
 
 ### Design systems
 - [The design system guide](https://thedesignsystem.guide/)
-- [Component gallery](https://component.gallery/),
+- [Component gallery](https://component.gallery/)
 - [Design system repo](https://designsystemsrepo.com/)
 - [Design System ROI Calculator](https://www.knapsack.cloud/calculator)
 - [Design system checklist](https://www.designsystemchecklist.com/)
@@ -332,3 +324,21 @@ transition: slide-left
 - [Joey Banks](https://baselinedesign.io/), Talks a lot about Design systems and Figma
 - [Rogie](https://bento.me/rogie), Designer Advocate at Figma
 - [Nathan A Curtis](https://www.directededges.com/nathan-curtis), Most famous design system designer worldwide
+
+---
+---
+
+## 🐇🐇 Deep down the rabbit hole
+
+### Flexbox (autolayout for the web)
+- [Flexbox in 100 seconds](https://www.youtube.com/watch?v=K74l26pE4YA)
+- [A guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Flex box froggy](https://flexboxfroggy.com/)
+
+### Grid
+- [Grid in 100 seconds](https://www.youtube.com/watch?v=uuOXPWCh-6o)
+- [A guide to grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [Grid garden](https://cssgridgarden.com/)
+
+### Open source Figma
+- [Penpot](https://penpot.app/)
